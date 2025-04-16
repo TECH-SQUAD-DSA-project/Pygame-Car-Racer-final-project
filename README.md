@@ -1,4 +1,4 @@
-# 🏎️ Racing Game Projects
+# 🏎️ Racing Game Project by TECH SQUAD
 
 Welcome to our Pygame Racing Game Series! This repository contains four progressively complex racing game projects, each building upon the previous. These projects explore Pygame fundamentals, AI path-following, collision mechanics, and level-based gameplay progression.
 
