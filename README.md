@@ -24,9 +24,9 @@ This project sets the foundation by displaying the racetrack and background usin
 - No car, movement, or AI yet.
 
 ### ✅Strengths:
--Nice use of OOP with abstract car and player-specific car.
--Smooth rotation + acceleration logic.
--Clean drawing and frame handling with clock.tick(FPS).
+- Nice use of OOP with abstract car and player-specific car.
+- Smooth rotation + acceleration logic.
+- Clean drawing and frame handling with clock.tick(FPS).
 
 ---
 
