@@ -23,6 +23,11 @@ This project sets the foundation by displaying the racetrack and background usin
 - Static screen — no interaction.
 - No car, movement, or AI yet.
 
+### ✅Strengths:
+-Nice use of OOP with abstract car and player-specific car.
+-Smooth rotation + acceleration logic.
+-Clean drawing and frame handling with clock.tick(FPS).
+
 ---
 
 ## 🚗 Project 2: Player Car Movement
