@@ -21,7 +21,7 @@ This project sets the foundation by displaying the racetrack and background usin
 
 ### 🐞 Glitches / Limitations
 - Static screen — no interaction.
-- No car, movement, or AI yet.
+- No back movement, or AI yet.
 
 ### ✅Strengths:
 - Nice use of OOP with abstract car and player-specific car.
@@ -91,6 +91,7 @@ This version introduces **levels**, a **timer**, and **win/lose mechanics**. The
 - AI still uses the same path for every level.
 - If the player or AI gets stuck, the game doesn’t end.
 - No saving progress — everything resets on game restart.
+- On restarting the game the computer car gets stuch at one position
 
 ---
 
