@@ -92,7 +92,7 @@ This version introduces **levels**, a **timer**, and **win/lose mechanics**. The
 - AI still uses the same path for every level.
 - If the player or AI gets stuck, the game doesn’t end.
 - No saving progress — everything resets on game restart.
-- On restarting the game the computer car gets stuch at one position
+- On restarting the game the computer car gets stuck at one position
 
 ---
 
