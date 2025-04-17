@@ -4,10 +4,11 @@ Welcome to our Pygame Racing Game Series! This repository contains four progress
 
 ---
 
-## 📦 Project 1: Basic Track Drawing
+## 📦 Project 1: Basic Track Drawing and car movement
 
 ### 📌 Overview
 This project sets the foundation by displaying the racetrack and background using Pygame. It handles window creation, image loading, and initial rendering.
+It also adds a **player-controlled car**. You can drive using the `W`, `A`, `S`, `D` keys and see real-time movement with rotation.
 
 ### 🛠️ Features
 - Loads images: grass, track, finish line, track borders.
@@ -30,10 +31,10 @@ This project sets the foundation by displaying the racetrack and background usin
 
 ---
 
-## 🚗 Project 2: Player Car Movement
+## 🚗 Project 2: back movement and use of collision with masking
 
 ### 📌 Overview
-This project adds a **player-controlled car**. You can now drive using the `W`, `A`, `S`, `D` keys and see real-time movement with rotation.
+It now adds back movement . it also uses bouncing on collision with boundaries or finish track using masking.
 
 ### 🛠️ Features
 - Adds `AbstractCar` and `PlayerCar` classes.
@@ -46,12 +47,12 @@ This project adds a **player-controlled car**. You can now drive using the `W`, 
 - Rotating surfaces and blitting with angle.
 
 ### 🐞 Glitches / Issues Faced
-- No collision — you can drive off the track.
+- collision — you cannot drive off the track.
 - No AI or goal — just drive freely.
 
 ---
 
-## 🧠 Project 3: AI Car + Collision Detection
+## 🧠 Project 3: AI Car 
 
 ### 📌 Overview
 The game now has an **AI car** that follows a pre-defined path. Collision detection is introduced using Pygame masks, adding gameplay challenge.
@@ -67,7 +68,7 @@ The game now has an **AI car** that follows a pre-defined path. Collision detect
 
 ### 🐞 Glitches / Issues Faced
 - AI sometimes misses path points at sharp turns.
-- No win/loss conditions — the game doesn't end.
+- win/loss conditions — the game restarts everytime you lost
 
 ---
 
